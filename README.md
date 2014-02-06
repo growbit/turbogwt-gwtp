@@ -22,6 +22,7 @@ TurboG GWTG is currently available at maven central.
     <artifactId>turbogwt-gwtp</artifactId>
     <version>0.1.0</version>
 </dependency>
+
 <!-- Required dependency -->
 <dependency>
     <groupId>org.turbogwt.mvp</groupId>
