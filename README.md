@@ -11,3 +11,21 @@ Turbo GWT (*TurboG*) GWT-Platform Extension
 ## Databind (Simple HOW-TO)
 
 See this [test case](https://github.com/growbit/turbogwt-gwtp/tree/master/src/test/java/org/turbogwt/ext/gwtp/databind/client/person) for a more complete example.
+
+## Downloads
+TurboG GWTG is currently available at maven central.
+
+### Maven
+```
+<dependency>
+    <groupId>org.turbogwt.ext</groupId>
+    <artifactId>turbogwt-gwtp</artifactId>
+    <version>0.1.0</version>
+</dependency>
+<!-- Required dependency -->
+<dependency>
+    <groupId>org.turbogwt.mvp</groupId>
+    <artifactId>turbogwt-databind</artifactId>
+    <version>0.1.0</version>
+</dependency>
+```
