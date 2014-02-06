@@ -6,7 +6,7 @@ Turbo GWT (*TurboG*) GWT-Platform Extension
 **TurboG GWT-Platform** is an extension of TurboG that allows easy integration with GWT-Platform MVP framework.
 
 ## Current module integrations
-* [TurboG Databind](https://github.com/growbit/turbogwt-databind) - TurboG GWTP provides a [databind module](http://growbit.github.io/turbogwt-gwtp/javadoc/apidocs/index.html) integrating TurboG Databind with GWTP-MVP-Client framework.
+* [TurboG Databind](https://github.com/growbit/turbogwt-databind) - TurboG GWTP provides a [databind module](http://growbit.github.io/turbogwt-gwtp/javadoc/apidocs/index.html) ([source](https://github.com/growbit/turbogwt-gwtp/tree/master/src/main/java/org/turbogwt/ext/gwtp/databind/client)) integrating TurboG Databind with GWTP-MVP framework.
  
 ## Databind - Ho to use it?
 The databind is achieved by a 2-way binding. 
