@@ -41,7 +41,7 @@ public class PersonViewImpl extends DatabindViewImpl<PersonUiHandlers> implement
     boolean nameValid, birthdayValid, phoneNumberValid, emailValid = true;
 
     public PersonViewImpl() {
-        // Construct the View (you can do it via UiBinder too)
+        // Construct the View (you can do it via UiBinder as well)
         FlowPanel panel = new FlowPanel();
         panel.add(name);
         panel.add(birthday);
