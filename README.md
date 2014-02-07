@@ -199,6 +199,12 @@ See this [test case](https://github.com/growbit/turbogwt-gwtp/tree/master/src/te
 2. System calls refresh() on Presenter 
 3. Presenter formats value (if exists) 
 4. Presenter sends value to View
+ 
+## Documentation
+* [Javadocs](http://growbit.github.io/turbogwt-gwtp/javadoc/apidocs/index.html)
+ 
+## Community
+* [Turbo GWT Google Group](http://groups.google.com/d/forum/turbogwt) - Share ideas and ask for help.
 
 ## Downloads
 TurboG GWTG is currently available at maven central.
@@ -218,9 +224,6 @@ TurboG GWTG is currently available at maven central.
     <version>0.1.0</version>
 </dependency>
 ```
- 
-## Community
-* [Turbo GWT Google Group](http://groups.google.com/d/forum/turbogwt) - Share ideas and ask for help.
 
 ## License
 Turbo GWT is freely distributable under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html)
