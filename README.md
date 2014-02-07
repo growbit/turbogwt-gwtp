@@ -218,3 +218,9 @@ TurboG GWTG is currently available at maven central.
     <version>0.1.0</version>
 </dependency>
 ```
+ 
+## Community
+* [Turbo GWT Google Group](http://groups.google.com/d/forum/turbogwt) - Share ideas and ask for help.
+
+## License
+Turbo GWT is freely distributable under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html)
