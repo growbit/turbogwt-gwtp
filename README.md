@@ -207,7 +207,7 @@ See this [test case](https://github.com/growbit/turbogwt-gwtp/tree/master/src/te
 * [Turbo GWT Google Group](http://groups.google.com/d/forum/turbogwt) - Share ideas and ask for help.
 
 ## Downloads
-TurboG GWTG is currently available at maven central.
+TurboG GWTP is currently available at maven central.
 
 ### Maven
 ```
