@@ -171,9 +171,14 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>org.turbogwt.core</groupId>
+                <artifactId>turbogwt-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.turbogwt.mvp</groupId>
                 <artifactId>turbogwt-databind</artifactId>
-                <version>0.2.0-SNAPSHOT</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.gwtplatform</groupId>
@@ -190,6 +195,12 @@
 
     <dependencies>
         <!-- Turbo GWT dependencies -->
+        <dependency>
+            <groupId>org.turbogwt.core</groupId>
+            <artifactId>turbogwt-core</artifactId>
+            <version>${project.version}</version>
+            <scope>provided</scope>
+        </dependency>
         <dependency>
             <groupId>org.turbogwt.mvp</groupId>
             <artifactId>turbogwt-databind</artifactId>
