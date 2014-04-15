@@ -189,7 +189,7 @@ See this [test case](https://github.com/growbit/turbogwt-gwtp/tree/master/src/te
 ### From View to Model
 1. User inputs value 
 2. View sends value to Presenter 
-3. Presenter unformats value (if exists) 
+3. Presenter unformats value (if could not unformat, throw UnableToFormatException) 
 4. Presenter validates value (if no there is no validator, then is always valid)
 5. Presenter notifies the View about the validation result 
 6. If valid, Presenter sends value to Model
@@ -197,7 +197,7 @@ See this [test case](https://github.com/growbit/turbogwt-gwtp/tree/master/src/te
 ### From Model to View
 1. System updates Model 
 2. System calls refresh() on Presenter 
-3. Presenter formats value (if exists) 
+3. Presenter formats value (if formatter was bound) 
 4. Presenter sends value to View
  
 ## Documentation
