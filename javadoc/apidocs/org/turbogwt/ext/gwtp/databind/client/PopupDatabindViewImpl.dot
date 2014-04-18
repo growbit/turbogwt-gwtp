@@ -5,8 +5,8 @@
 #
 
 digraph G {
-	edge [fontname="arial",fontsize=10,labelfontname="arial",labelfontsize=10];
-	node [fontname="arial",fontsize=10,shape=plaintext];
+	edge [fontname="Helvetica",fontsize=10,labelfontname="Helvetica",labelfontsize=10];
+	node [fontname="Helvetica",fontsize=10,shape=plaintext];
 	nodesep=0.25;
 	ranksep=0.5;
 	rankdir=LR;
@@ -15,14 +15,14 @@ digraph G {
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> PopupDatabindViewImpl&lt;H extends DatabindUiHandlers&gt; </td></tr>
 		</table></td></tr>
-		</table>>, URL="./PopupDatabindViewImpl.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./PopupDatabindViewImpl.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	// org.turbogwt.ext.gwtp.databind.client.PopupDatabindView<H extends org.turbogwt.ext.gwtp.databind.client.DatabindUiHandlers>
 	c55 [label=<<table title="org.turbogwt.ext.gwtp.databind.client.PopupDatabindView" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PopupDatabindView.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
 <tr><td align="center" balign="center"> PopupDatabindView&lt;H extends DatabindUiHandlers&gt; </td></tr>
 		</table></td></tr>
-		</table>>, URL="./PopupDatabindView.html", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="./PopupDatabindView.html", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 	//org.turbogwt.ext.gwtp.databind.client.PopupDatabindViewImpl<H extends org.turbogwt.ext.gwtp.databind.client.DatabindUiHandlers> extends com.gwtplatform.mvp.client.PopupViewWithUiHandlers<H>
 	c59:p -> c54:p [dir=back,arrowtail=empty];
 	//org.turbogwt.ext.gwtp.databind.client.PopupDatabindViewImpl<H extends org.turbogwt.ext.gwtp.databind.client.DatabindUiHandlers> implements org.turbogwt.ext.gwtp.databind.client.PopupDatabindView<H extends org.turbogwt.ext.gwtp.databind.client.DatabindUiHandlers>
@@ -30,8 +30,8 @@ digraph G {
 	// com.gwtplatform.mvp.client.PopupViewWithUiHandlers<C extends com.gwtplatform.mvp.client.UiHandlers>
 	c59 [label=<<table title="com.gwtplatform.mvp.client.PopupViewWithUiHandlers" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"><font face="arial italic"> PopupViewWithUiHandlers&lt;C extends UiHandlers&gt; </font></td></tr>
+<tr><td align="center" balign="center"><font face="Helvetica-Oblique"> PopupViewWithUiHandlers&lt;C extends UiHandlers&gt; </font></td></tr>
 		</table></td></tr>
-		</table>>, URL="null", fontname="arial", fontcolor="black", fontsize=10.0];
+		</table>>, URL="null", fontname="Helvetica", fontcolor="black", fontsize=10.0];
 }
 
