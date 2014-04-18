@@ -8,7 +8,7 @@ Turbo GWT (*TurboG*) GWT-Platform Extension
 ## Current module integrations
 * [TurboG Databind](https://github.com/growbit/turbogwt-databind) - TurboG GWTP provides a [databind module](http://growbit.github.io/turbogwt-gwtp/javadoc/apidocs/index.html) ([source](https://github.com/growbit/turbogwt-gwtp/tree/master/src/main/java/org/turbogwt/ext/gwtp/databind/client)) integrating TurboG Databind with GWTP-MVP framework.
  
-## Databind - Ho to use it?
+## Databind - How to use it?
 The databind is achieved by a 2-way binding. 
 Both Presenter and View must bind its elements to a common id.
 
