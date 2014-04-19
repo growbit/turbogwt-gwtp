@@ -27,7 +27,7 @@
     </issueManagement>
 
     <properties>
-        <gwtp.version>1.1.1</gwtp.version>
+        <gwtp.version>1.2.1</gwtp.version>
         <gin.version>2.1.2</gin.version>
     </properties>
 
