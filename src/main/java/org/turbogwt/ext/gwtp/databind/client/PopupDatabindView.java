@@ -27,5 +27,5 @@ import com.gwtplatform.mvp.client.PopupView;
  * @author Danilo Reinert
  */
 public interface PopupDatabindView<H extends DatabindUiHandlers> extends PopupView, HasUiHandlers<H>,
-        org.turbogwt.mvp.databind.client.DatabindView {
+        org.turbogwt.mvp.databind.DatabindView {
 }

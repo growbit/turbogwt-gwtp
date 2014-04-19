@@ -21,8 +21,8 @@ import com.google.web.bindery.event.shared.EventBus;
 import com.gwtplatform.mvp.client.PresenterWidget;
 
 import org.turbogwt.ext.gwtp.databind.client.DatabindView;
-import org.turbogwt.mvp.databind.client.Binding;
-import org.turbogwt.mvp.databind.client.BindingImpl;
+import org.turbogwt.mvp.databind.Binding;
+import org.turbogwt.mvp.databind.BindingImpl;
 
 /**
  * Presenter of an editing view of Person.

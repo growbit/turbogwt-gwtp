@@ -20,15 +20,15 @@ import java.util.Date;
 
 import javax.annotation.Nullable;
 
-import org.turbogwt.mvp.databind.client.format.Formatter;
-import org.turbogwt.mvp.databind.client.property.DatePropertyAccessor;
-import org.turbogwt.mvp.databind.client.property.NumberPropertyAccessor;
-import org.turbogwt.mvp.databind.client.property.TextPropertyAccessor;
-import org.turbogwt.mvp.databind.client.validation.EmailValidator;
-import org.turbogwt.mvp.databind.client.validation.RequiredValidator;
-import org.turbogwt.mvp.databind.client.validation.Validation;
-import org.turbogwt.mvp.databind.client.validation.ValidationMessage;
-import org.turbogwt.mvp.databind.client.validation.Validator;
+import org.turbogwt.mvp.databind.format.Formatter;
+import org.turbogwt.mvp.databind.property.DatePropertyAccessor;
+import org.turbogwt.mvp.databind.property.NumberPropertyAccessor;
+import org.turbogwt.mvp.databind.property.TextPropertyAccessor;
+import org.turbogwt.mvp.databind.validation.EmailValidator;
+import org.turbogwt.mvp.databind.validation.RequiredValidator;
+import org.turbogwt.mvp.databind.validation.Validation;
+import org.turbogwt.mvp.databind.validation.ValidationMessage;
+import org.turbogwt.mvp.databind.validation.Validator;
 
 /**
  * Databinding functions of Person.

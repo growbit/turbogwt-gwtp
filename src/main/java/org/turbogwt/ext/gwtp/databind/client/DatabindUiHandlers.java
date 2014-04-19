@@ -18,7 +18,7 @@ package org.turbogwt.ext.gwtp.databind.client;
 
 import com.gwtplatform.mvp.client.UiHandlers;
 
-import org.turbogwt.mvp.databind.client.DatabindUiHandler;
+import org.turbogwt.mvp.databind.DatabindUiHandler;
 
 /**
  * Use this interface on classes that implement the controls required by

@@ -27,5 +27,5 @@ import com.gwtplatform.mvp.client.View;
  * @author Danilo Reinert
  */
 public interface DatabindView<H extends DatabindUiHandlers> extends View, HasUiHandlers<H>,
-        org.turbogwt.mvp.databind.client.DatabindView {
+        org.turbogwt.mvp.databind.DatabindView {
 }

@@ -19,15 +19,15 @@ package org.turbogwt.ext.gwtp.databind.client;
 import com.google.gwt.user.client.TakesValue;
 import com.google.gwt.user.client.ui.HasValue;
 import com.google.web.bindery.event.shared.EventBus;
-import com.google.web.bindery.event.shared.HandlerRegistration;
 import com.gwtplatform.mvp.client.PopupViewWithUiHandlers;
 
 import javax.annotation.Nullable;
 
-import org.turbogwt.mvp.databind.client.DatabindUiHandler;
-import org.turbogwt.mvp.databind.client.DatabindViewEngine;
-import org.turbogwt.mvp.databind.client.Strategy;
-import org.turbogwt.mvp.databind.client.validation.ValidationMessage;
+import org.turbogwt.core.util.Registration;
+import org.turbogwt.mvp.databind.DatabindUiHandler;
+import org.turbogwt.mvp.databind.DatabindViewEngine;
+import org.turbogwt.mvp.databind.Strategy;
+import org.turbogwt.mvp.databind.validation.ValidationMessage;
 
 /**
  * Base class for a {@link PopupDatabindView}.
@@ -57,12 +57,12 @@ public class PopupDatabindViewImpl<H extends DatabindUiHandlers> extends PopupVi
     }
 
     @Override
-    public <F> HandlerRegistration bind(String id, HasValue<F> widget, Strategy strategy) {
+    public <F> Registration bind(String id, HasValue<F> widget, Strategy strategy) {
         return engine.bind(id, widget, strategy);
     }
 
     @Override
-    public <F> HandlerRegistration bind(String id, TakesValue<F> widget) {
+    public <F> Registration bind(String id, TakesValue<F> widget) {
         return engine.bind(id, widget);
     }
 

@@ -23,8 +23,8 @@ import com.google.gwt.user.datepicker.client.DateBox;
 import javax.annotation.Nullable;
 
 import org.turbogwt.ext.gwtp.databind.client.DatabindViewImpl;
-import org.turbogwt.mvp.databind.client.Strategy;
-import org.turbogwt.mvp.databind.client.validation.ValidationMessage;
+import org.turbogwt.mvp.databind.Strategy;
+import org.turbogwt.mvp.databind.validation.ValidationMessage;
 
 /**
  * Implementation of {@link PersonPresenter.PersonView}.
