@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.turbogwt.ext.gwtp.databind.client.person;
+package org.turbogwt.ext.gwtp.databind.person;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.junit.client.GWTTestCase;

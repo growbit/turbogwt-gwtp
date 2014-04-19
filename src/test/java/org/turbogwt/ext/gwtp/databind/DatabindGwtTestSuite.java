@@ -14,17 +14,24 @@
  * limitations under the License.
  */
 
-package org.turbogwt.ext.gwtp.databind.client;
+package org.turbogwt.ext.gwtp.databind;
 
-import com.gwtplatform.mvp.client.UiHandlers;
+import com.google.gwt.junit.tools.GWTTestSuite;
 
-import org.turbogwt.mvp.databind.DatabindUiHandler;
+import junit.framework.Test;
+
+import org.turbogwt.ext.gwtp.databind.person.PersonGwtTestCase;
 
 /**
- * Use this interface on classes that implement the controls required by
- * a {@link DatabindView} to communicate back with its {@link com.gwtplatform.mvp.client.PresenterWidget}.
- *
  * @author Danilo Reinert
  */
-public interface DatabindUiHandlers extends DatabindUiHandler, UiHandlers {
+public class DatabindGwtTestSuite {
+
+    public static Test suite() {
+        GWTTestSuite suite = new GWTTestSuite("Databind GWT Test Suite");
+
+        suite.addTestSuite(PersonGwtTestCase.class);
+
+        return suite;
+    }
 }

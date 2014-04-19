@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.turbogwt.ext.gwtp.databind.client.person;
+package org.turbogwt.ext.gwtp.databind.person;
 
-import org.turbogwt.ext.gwtp.databind.client.DatabindUiHandlers;
+import org.turbogwt.ext.gwtp.databind.DatabindUiHandlers;
 
 /**
  * UiHandlers of Person editing view.

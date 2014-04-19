@@ -14,24 +14,18 @@
  * limitations under the License.
  */
 
-package org.turbogwt.ext.gwtp.databind.client;
+package org.turbogwt.ext.gwtp.databind;
 
-import com.google.gwt.junit.tools.GWTTestSuite;
-
-import junit.framework.Test;
-
-import org.turbogwt.ext.gwtp.databind.client.person.PersonGwtTestCase;
+import com.gwtplatform.mvp.client.HasUiHandlers;
+import com.gwtplatform.mvp.client.PopupView;
 
 /**
+ * The interface for {@link com.gwtplatform.mvp.client.View} classes that is meant to be displayed as a
+ * popup supporting Databind.
+ *
+ * @param <H> your {@link DatabindUiHandlers} implementation. (usually the presenter)
  * @author Danilo Reinert
  */
-public class DatabindGwtTestSuite {
-
-    public static Test suite() {
-        GWTTestSuite suite = new GWTTestSuite("Databind GWT Test Suite");
-
-        suite.addTestSuite(PersonGwtTestCase.class);
-
-        return suite;
-    }
+public interface PopupDatabindView<H extends DatabindUiHandlers> extends PopupView, HasUiHandlers<H>,
+        org.turbogwt.mvp.databind.DatabindView {
 }

@@ -3,5 +3,5 @@
     <inherits name="com.google.gwt.user.User"/>
     <inherits name="org.turbogwt.ext.gwtp.databind.DatabindTest"/>
 
-    <source path="client"/>
+    <source path=""/>
 </module>

@@ -14,11 +14,12 @@
  * limitations under the License.
  */
 
-package org.turbogwt.ext.gwtp.databind.client;
+package org.turbogwt.ext.gwtp.databind;
 
 import com.google.gwt.user.client.TakesValue;
 import com.google.gwt.user.client.ui.HasValue;
-import com.gwtplatform.mvp.client.ViewWithUiHandlers;
+import com.google.web.bindery.event.shared.EventBus;
+import com.gwtplatform.mvp.client.PopupViewWithUiHandlers;
 
 import javax.annotation.Nullable;
 
@@ -29,9 +30,9 @@ import org.turbogwt.mvp.databind.Strategy;
 import org.turbogwt.mvp.databind.validation.ValidationMessage;
 
 /**
- * Base class for a {@link DatabindView}.
+ * Base class for a {@link PopupDatabindView}.
  * You should always call {@link #setUiHandlers(com.gwtplatform.mvp.client.UiHandlers)} from your
- * presenter's constructor.
+ * presenter 's constructor.
  * <p/>
  * <b>Important!</b> Never call {@link #getUiHandlers()} inside your constructor
  * since the {@link com.gwtplatform.mvp.client.UiHandlers} are not yet set.
@@ -39,9 +40,21 @@ import org.turbogwt.mvp.databind.validation.ValidationMessage;
  * @param <H> Your {@link DatabindUiHandlers} interface type.
  * @author Danilo Reinert
  */
-public class DatabindViewImpl<H extends DatabindUiHandlers> extends ViewWithUiHandlers<H> implements DatabindView<H> {
+public class PopupDatabindViewImpl<H extends DatabindUiHandlers> extends PopupViewWithUiHandlers<H>
+        implements PopupDatabindView<H> {
 
     private final DatabindViewEngine engine = new DatabindViewEngine();
+
+    /**
+     * The {@link PopupViewWithUiHandlers} class uses the {@link EventBus} to listen to {@link
+     * com.gwtplatform.mvp.client.proxy.NavigationEvent} in order to automatically close when this event is fired, if
+     * desired. See {@link #setAutoHideOnNavigationEventEnabled(boolean)} for details.
+     *
+     * @param eventBus The {@link EventBus}.
+     */
+    protected PopupDatabindViewImpl(EventBus eventBus) {
+        super(eventBus);
+    }
 
     @Override
     public <F> Registration bind(String id, HasValue<F> widget, Strategy strategy) {
@@ -59,8 +72,8 @@ public class DatabindViewImpl<H extends DatabindUiHandlers> extends ViewWithUiHa
     }
 
     /**
-     * You should override this method if you want to handle failed validation events. It happens when the presenter
-     * flushes data from view.
+     * You should override this method if you want to handle failed validation events.
+     * It happens when the presenter flushes data from view.
      *
      * @param property model's property id
      * @param message  message from presenter
@@ -70,8 +83,8 @@ public class DatabindViewImpl<H extends DatabindUiHandlers> extends ViewWithUiHa
     }
 
     /**
-     * You should override this method if you want to handle successful validation events. It happens when the presenter
-     * flushes data from view.
+     * You should override this method if you want to handle successful validation events.
+     * It happens when the presenter flushes data from view.
      *
      * @param property model's property id
      * @param message  message from presenter

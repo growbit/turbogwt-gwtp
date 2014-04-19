@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.turbogwt.ext.gwtp.databind.client.person;
+package org.turbogwt.ext.gwtp.databind.person;
 
 import com.google.inject.Inject;
 import com.google.web.bindery.event.shared.EventBus;
 import com.gwtplatform.mvp.client.PresenterWidget;
 
-import org.turbogwt.ext.gwtp.databind.client.DatabindView;
+import org.turbogwt.ext.gwtp.databind.DatabindView;
 import org.turbogwt.mvp.databind.Binding;
 import org.turbogwt.mvp.databind.BindingImpl;
 
