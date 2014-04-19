@@ -21,6 +21,7 @@ import java.util.Date;
 import javax.annotation.Nullable;
 
 import org.turbogwt.mvp.databind.format.Formatter;
+import org.turbogwt.mvp.databind.format.UnableToFormatException;
 import org.turbogwt.mvp.databind.property.DatePropertyAccessor;
 import org.turbogwt.mvp.databind.property.NumberPropertyAccessor;
 import org.turbogwt.mvp.databind.property.TextPropertyAccessor;
@@ -137,7 +138,12 @@ public final class PersonProperties {
             if (formattedValue != null && !formattedValue.isEmpty()) {
                 // It will transform 999-99999 into 99999999
                 final String phoneStr = formattedValue.substring(0, 3) + formattedValue.substring(4);
-                return Integer.valueOf(phoneStr);
+                try {
+                    return Integer.valueOf(phoneStr);
+                } catch (Exception e) {
+                    // This exception will be sent as an ERROR validation to the View.
+                    throw new UnableToFormatException("Malformed phone. It should be in the format 999-99999");
+                }
             }
             return null;
         }
