@@ -1,4 +1,4 @@
-Turbo GWT (*TurboG*) GWT-Platform Extension
+Turbo GWT (*TurboG*) GWT-Platform Extension [![Build Status](https://travis-ci.org/growbit/turbogwt-gwtp.svg?branch=master)](https://travis-ci.org/growbit/turbogwt-gwtp)
 ==
 
 [**Turbo GWT**](http://github.com/growbit/turbogwt) is a suite of libs intended to speed up development of GWT applications. It aims to promote a fluent and enjoyable programming.
