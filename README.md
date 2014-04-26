@@ -1,7 +1,7 @@
 Turbo GWT (*TurboG*) GWT-Platform Extension
 ==
 
-**Turbo GWT** is a suite of libs intended to speed up development of GWT applications. It aims to promote a fluent and enjoyable programming.
+[**Turbo GWT**](http://github.com/growbit/turbogwt) is a suite of libs intended to speed up development of GWT applications. It aims to promote a fluent and enjoyable programming.
 
 **TurboG GWT-Platform** is an extension of TurboG that allows easy integration with GWT-Platform MVP framework.
 
