@@ -1,12 +1,12 @@
 <map id="G" name="G">
-<area shape="rect" id="node1_0" href="./PopupDatabindViewImpl.html" title="org.turbogwt.ext.gwtp.databind.client.PopupDatabindViewImpl" alt="" coords="417,176,770,203"/>
-<area shape="rect" id="node1" href="./PopupDatabindViewImpl.html" title="&lt;TABLE&gt;" alt="" coords="406,165,781,213"/>
-<area shape="rect" id="node2_1" href="./PopupDatabindView.html" title="org.turbogwt.ext.gwtp.databind.client.PopupDatabindView" alt="" coords="17,167,346,211"/>
-<area shape="rect" id="node2" href="./PopupDatabindView.html" title="&lt;TABLE&gt;" alt="" coords="6,162,357,217"/>
-<area shape="rect" id="node3_2" href="./DatabindViewImpl.html" title="org.turbogwt.ext.gwtp.databind.client.DatabindViewImpl" alt="" coords="435,97,752,124"/>
-<area shape="rect" id="node3" href="./DatabindViewImpl.html" title="&lt;TABLE&gt;" alt="" coords="424,87,763,135"/>
-<area shape="rect" id="node4_3" href="./DatabindView.html" title="org.turbogwt.ext.gwtp.databind.client.DatabindView" alt="" coords="35,89,328,133"/>
-<area shape="rect" id="node4" href="./DatabindView.html" title="&lt;TABLE&gt;" alt="" coords="24,83,339,138"/>
-<area shape="rect" id="node5_4" href="./DatabindUiHandlers.html" title="org.turbogwt.ext.gwtp.databind.client.DatabindUiHandlers" alt="" coords="114,10,249,54"/>
-<area shape="rect" id="node5" href="./DatabindUiHandlers.html" title="&lt;TABLE&gt;" alt="" coords="103,5,259,59"/>
+<area shape="rect" id="node1_0" href="./PopupBindingViewImpl.html" title="org.turbogwt.ext.gwtp.databind.client.PopupBindingViewImpl" alt="" coords="401,176,738,203"/>
+<area shape="rect" id="node1" href="./PopupBindingViewImpl.html" title="&lt;TABLE&gt;" alt="" coords="390,165,749,213"/>
+<area shape="rect" id="node2_1" href="./PopupBindingView.html" title="org.turbogwt.ext.gwtp.databind.client.PopupBindingView" alt="" coords="17,167,330,211"/>
+<area shape="rect" id="node2" href="./PopupBindingView.html" title="&lt;TABLE&gt;" alt="" coords="6,162,341,217"/>
+<area shape="rect" id="node3_2" href="./BindingViewImpl.html" title="org.turbogwt.ext.gwtp.databind.client.BindingViewImpl" alt="" coords="419,97,720,124"/>
+<area shape="rect" id="node3" href="./BindingViewImpl.html" title="&lt;TABLE&gt;" alt="" coords="408,87,731,135"/>
+<area shape="rect" id="node4_3" href="./BindingView.html" title="org.turbogwt.ext.gwtp.databind.client.BindingView" alt="" coords="35,89,312,133"/>
+<area shape="rect" id="node4" href="./BindingView.html" title="&lt;TABLE&gt;" alt="" coords="24,83,323,138"/>
+<area shape="rect" id="node5_4" href="./BindingUiHandlers.html" title="org.turbogwt.ext.gwtp.databind.client.BindingUiHandlers" alt="" coords="110,10,237,54"/>
+<area shape="rect" id="node5" href="./BindingUiHandlers.html" title="&lt;TABLE&gt;" alt="" coords="99,5,247,59"/>
 </map>

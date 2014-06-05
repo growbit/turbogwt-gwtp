@@ -10,42 +10,42 @@ digraph G {
 	nodesep=0.25;
 	ranksep=0.5;
 	rankdir=LR;
-	// org.turbogwt.ext.gwtp.databind.client.PopupDatabindViewImpl<H extends org.turbogwt.ext.gwtp.databind.client.DatabindUiHandlers>
-	c0 [label=<<table title="org.turbogwt.ext.gwtp.databind.client.PopupDatabindViewImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PopupDatabindViewImpl.html">
+	// org.turbogwt.ext.gwtp.databind.client.PopupBindingViewImpl<H extends org.turbogwt.ext.gwtp.databind.client.BindingUiHandlers>
+	c0 [label=<<table title="org.turbogwt.ext.gwtp.databind.client.PopupBindingViewImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PopupBindingViewImpl.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> PopupDatabindViewImpl&lt;H extends DatabindUiHandlers&gt; </td></tr>
+<tr><td align="center" balign="center"> PopupBindingViewImpl&lt;H extends BindingUiHandlers&gt; </td></tr>
 		</table></td></tr>
-		</table>>, URL="./PopupDatabindViewImpl.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// org.turbogwt.ext.gwtp.databind.client.PopupDatabindView<H extends org.turbogwt.ext.gwtp.databind.client.DatabindUiHandlers>
-	c1 [label=<<table title="org.turbogwt.ext.gwtp.databind.client.PopupDatabindView" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PopupDatabindView.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> PopupDatabindView&lt;H extends DatabindUiHandlers&gt; </td></tr>
-		</table></td></tr>
-		</table>>, URL="./PopupDatabindView.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// org.turbogwt.ext.gwtp.databind.client.DatabindViewImpl<H extends org.turbogwt.ext.gwtp.databind.client.DatabindUiHandlers>
-	c2 [label=<<table title="org.turbogwt.ext.gwtp.databind.client.DatabindViewImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DatabindViewImpl.html">
-		<tr><td><table border="0" cellspacing="0" cellpadding="1">
-<tr><td align="center" balign="center"> DatabindViewImpl&lt;H extends DatabindUiHandlers&gt; </td></tr>
-		</table></td></tr>
-		</table>>, URL="./DatabindViewImpl.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// org.turbogwt.ext.gwtp.databind.client.DatabindView<H extends org.turbogwt.ext.gwtp.databind.client.DatabindUiHandlers>
-	c3 [label=<<table title="org.turbogwt.ext.gwtp.databind.client.DatabindView" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DatabindView.html">
+		</table>>, URL="./PopupBindingViewImpl.html", fontname="arial", fontcolor="black", fontsize=10.0];
+	// org.turbogwt.ext.gwtp.databind.client.PopupBindingView<H extends org.turbogwt.ext.gwtp.databind.client.BindingUiHandlers>
+	c1 [label=<<table title="org.turbogwt.ext.gwtp.databind.client.PopupBindingView" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./PopupBindingView.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> DatabindView&lt;H extends DatabindUiHandlers&gt; </td></tr>
+<tr><td align="center" balign="center"> PopupBindingView&lt;H extends BindingUiHandlers&gt; </td></tr>
 		</table></td></tr>
-		</table>>, URL="./DatabindView.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	// org.turbogwt.ext.gwtp.databind.client.DatabindUiHandlers
-	c4 [label=<<table title="org.turbogwt.ext.gwtp.databind.client.DatabindUiHandlers" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./DatabindUiHandlers.html">
+		</table>>, URL="./PopupBindingView.html", fontname="arial", fontcolor="black", fontsize=10.0];
+	// org.turbogwt.ext.gwtp.databind.client.BindingViewImpl<H extends org.turbogwt.ext.gwtp.databind.client.BindingUiHandlers>
+	c2 [label=<<table title="org.turbogwt.ext.gwtp.databind.client.BindingViewImpl" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BindingViewImpl.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> BindingViewImpl&lt;H extends BindingUiHandlers&gt; </td></tr>
+		</table></td></tr>
+		</table>>, URL="./BindingViewImpl.html", fontname="arial", fontcolor="black", fontsize=10.0];
+	// org.turbogwt.ext.gwtp.databind.client.BindingView<H extends org.turbogwt.ext.gwtp.databind.client.BindingUiHandlers>
+	c3 [label=<<table title="org.turbogwt.ext.gwtp.databind.client.BindingView" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BindingView.html">
 		<tr><td><table border="0" cellspacing="0" cellpadding="1">
 <tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
-<tr><td align="center" balign="center"> DatabindUiHandlers </td></tr>
+<tr><td align="center" balign="center"> BindingView&lt;H extends BindingUiHandlers&gt; </td></tr>
 		</table></td></tr>
-		</table>>, URL="./DatabindUiHandlers.html", fontname="arial", fontcolor="black", fontsize=10.0];
-	//org.turbogwt.ext.gwtp.databind.client.PopupDatabindViewImpl<H extends org.turbogwt.ext.gwtp.databind.client.DatabindUiHandlers> implements org.turbogwt.ext.gwtp.databind.client.PopupDatabindView<H extends org.turbogwt.ext.gwtp.databind.client.DatabindUiHandlers>
+		</table>>, URL="./BindingView.html", fontname="arial", fontcolor="black", fontsize=10.0];
+	// org.turbogwt.ext.gwtp.databind.client.BindingUiHandlers
+	c4 [label=<<table title="org.turbogwt.ext.gwtp.databind.client.BindingUiHandlers" border="0" cellborder="1" cellspacing="0" cellpadding="2" port="p" href="./BindingUiHandlers.html">
+		<tr><td><table border="0" cellspacing="0" cellpadding="1">
+<tr><td align="center" balign="center"> &#171;interface&#187; </td></tr>
+<tr><td align="center" balign="center"> BindingUiHandlers </td></tr>
+		</table></td></tr>
+		</table>>, URL="./BindingUiHandlers.html", fontname="arial", fontcolor="black", fontsize=10.0];
+	//org.turbogwt.ext.gwtp.databind.client.PopupBindingViewImpl<H extends org.turbogwt.ext.gwtp.databind.client.BindingUiHandlers> implements org.turbogwt.ext.gwtp.databind.client.PopupBindingView<H extends org.turbogwt.ext.gwtp.databind.client.BindingUiHandlers>
 	c1:p -> c0:p [dir=back,arrowtail=empty,style=dashed];
-	//org.turbogwt.ext.gwtp.databind.client.DatabindViewImpl<H extends org.turbogwt.ext.gwtp.databind.client.DatabindUiHandlers> implements org.turbogwt.ext.gwtp.databind.client.DatabindView<H extends org.turbogwt.ext.gwtp.databind.client.DatabindUiHandlers>
+	//org.turbogwt.ext.gwtp.databind.client.BindingViewImpl<H extends org.turbogwt.ext.gwtp.databind.client.BindingUiHandlers> implements org.turbogwt.ext.gwtp.databind.client.BindingView<H extends org.turbogwt.ext.gwtp.databind.client.BindingUiHandlers>
 	c3:p -> c2:p [dir=back,arrowtail=empty,style=dashed];
 }
 

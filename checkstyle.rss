@@ -46,7 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.test.person.PersonGwtTestCase.java">org/turbogwt/ext/gwtp/databind/test/person/PersonGwtTestCase.java</a>
+                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.client.BindingViewImpl.java">org/turbogwt/ext/gwtp/databind/client/BindingViewImpl.java</a>
                 </td>
                 <td>
                   0
@@ -60,7 +60,35 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.client.DatabindView.java">org/turbogwt/ext/gwtp/databind/client/DatabindView.java</a>
+                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.client.PopupBindingViewImpl.java">org/turbogwt/ext/gwtp/databind/client/PopupBindingViewImpl.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.client.BindingUiHandlers.java">org/turbogwt/ext/gwtp/databind/client/BindingUiHandlers.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.test.person.PersonGwtTestCase.java">org/turbogwt/ext/gwtp/databind/test/person/PersonGwtTestCase.java</a>
                 </td>
                 <td>
                   0
@@ -102,35 +130,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.client.PopupDatabindView.java">org/turbogwt/ext/gwtp/databind/client/PopupDatabindView.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.client.PopupDatabindViewImpl.java">org/turbogwt/ext/gwtp/databind/client/PopupDatabindViewImpl.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.client.DatabindUiHandlers.java">org/turbogwt/ext/gwtp/databind/client/DatabindUiHandlers.java</a>
+                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.client.PopupBindingView.java">org/turbogwt/ext/gwtp/databind/client/PopupBindingView.java</a>
                 </td>
                 <td>
                   0
@@ -172,7 +172,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.client.DatabindViewImpl.java">org/turbogwt/ext/gwtp/databind/client/DatabindViewImpl.java</a>
+                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.client.BindingView.java">org/turbogwt/ext/gwtp/databind/client/BindingView.java</a>
                 </td>
                 <td>
                   0
