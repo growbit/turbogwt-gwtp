@@ -25,9 +25,9 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2014</copyright>
     <item>
-      <title>File: 12,
+      <title>File: 11,
              Errors: 0,
-             Warnings: 1,
+             Warnings: 0,
              Infos: 0
       </title>
             <link>http://turbogwt.org/checkstyle.html</link>
@@ -46,7 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.DatabindGwtTestSuite.java">org/turbogwt/ext/gwtp/databind/DatabindGwtTestSuite.java</a>
+                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.test.person.PersonGwtTestCase.java">org/turbogwt/ext/gwtp/databind/test/person/PersonGwtTestCase.java</a>
                 </td>
                 <td>
                   0
@@ -60,7 +60,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.DatabindUiHandlers.java">org/turbogwt/ext/gwtp/databind/DatabindUiHandlers.java</a>
+                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.client.DatabindView.java">org/turbogwt/ext/gwtp/databind/client/DatabindView.java</a>
                 </td>
                 <td>
                   0
@@ -74,7 +74,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.person.PersonProperties.java">org/turbogwt/ext/gwtp/databind/person/PersonProperties.java</a>
+                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.test.person.Person.java">org/turbogwt/ext/gwtp/databind/test/person/Person.java</a>
                 </td>
                 <td>
                   0
@@ -88,21 +88,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.person.PersonGwtTestCase.java">org/turbogwt/ext/gwtp/databind/person/PersonGwtTestCase.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.person.PersonPresenter.java">org/turbogwt/ext/gwtp/databind/person/PersonPresenter.java</a>
+                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.test.person.PersonViewImpl.java">org/turbogwt/ext/gwtp/databind/test/person/PersonViewImpl.java</a>
                 </td>
                 <td>
                   0
@@ -116,7 +102,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.DatabindViewImpl.java">org/turbogwt/ext/gwtp/databind/DatabindViewImpl.java</a>
+                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.client.PopupDatabindView.java">org/turbogwt/ext/gwtp/databind/client/PopupDatabindView.java</a>
                 </td>
                 <td>
                   0
@@ -130,7 +116,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.person.PersonViewImpl.java">org/turbogwt/ext/gwtp/databind/person/PersonViewImpl.java</a>
+                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.client.PopupDatabindViewImpl.java">org/turbogwt/ext/gwtp/databind/client/PopupDatabindViewImpl.java</a>
                 </td>
                 <td>
                   0
@@ -144,7 +130,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.person.Person.java">org/turbogwt/ext/gwtp/databind/person/Person.java</a>
+                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.client.DatabindUiHandlers.java">org/turbogwt/ext/gwtp/databind/client/DatabindUiHandlers.java</a>
                 </td>
                 <td>
                   0
@@ -158,7 +144,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.PopupDatabindViewImpl.java">org/turbogwt/ext/gwtp/databind/PopupDatabindViewImpl.java</a>
+                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.test.person.PersonUiHandlers.java">org/turbogwt/ext/gwtp/databind/test/person/PersonUiHandlers.java</a>
                 </td>
                 <td>
                   0
@@ -172,7 +158,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.person.PersonUiHandlers.java">org/turbogwt/ext/gwtp/databind/person/PersonUiHandlers.java</a>
+                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.test.person.PersonProperties.java">org/turbogwt/ext/gwtp/databind/test/person/PersonProperties.java</a>
                 </td>
                 <td>
                   0
@@ -186,7 +172,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.DatabindView.java">org/turbogwt/ext/gwtp/databind/DatabindView.java</a>
+                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.client.DatabindViewImpl.java">org/turbogwt/ext/gwtp/databind/client/DatabindViewImpl.java</a>
                 </td>
                 <td>
                   0
@@ -200,7 +186,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.PopupDatabindView.java">org/turbogwt/ext/gwtp/databind/PopupDatabindView.java</a>
+                  <a href="http://turbogwt.org/checkstyle.html#org.turbogwt.ext.gwtp.databind.test.person.PersonPresenter.java">org/turbogwt/ext/gwtp/databind/test/person/PersonPresenter.java</a>
                 </td>
                 <td>
                   0
