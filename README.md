@@ -179,11 +179,11 @@ public class PersonViewImpl extends DatabindViewImpl<PersonUiHandlers> implement
 }
 ```
 
-[DatabindViewImpl](https://github.com/growbit/turbogwt-gwtp/blob/master/src/main/java/org/turbogwt/ext/gwtp/databind/DatabindViewImpl.java) is simply an extension of ViewWithUiHandlers with databind support. Note its implementation was as easy as creating an *engine* and delegating all [DatabindView](https://github.com/growbit/turbogwt-gwtp/blob/master/src/main/java/org/turbogwt/ext/gwtp/databind/DatabindView.java) methods to it.
+[DatabindViewImpl](https://github.com/growbit/turbogwt-gwtp/blob/master/src/main/java/org/turbogwt/ext/gwtp/databind/client/DatabindViewImpl.java) is simply an extension of ViewWithUiHandlers with databind support. Note its implementation was as easy as creating an *engine* and delegating all [DatabindView](https://github.com/growbit/turbogwt-gwtp/blob/master/src/main/java/org/turbogwt/ext/gwtp/databind/client/DatabindView.java) methods to it.
 
 Now, anytime the user changes the value of name textbox or birthday datebox, the new value is automatically sent to the Presenter passing through a validation. The view is notified of the validation. If the validation succeeds, the value is set into the model.
 
-See this [test case](https://github.com/growbit/turbogwt-gwtp/tree/master/src/test/java/org/turbogwt/ext/gwtp/databind/person) for a more complete example.
+See this [test case](https://github.com/growbit/turbogwt-gwtp/tree/master/src/test/java/org/turbogwt/ext/gwtp/databind/test/person) for a more complete example.
 
 ## Basic flow
 ### From View to Model
