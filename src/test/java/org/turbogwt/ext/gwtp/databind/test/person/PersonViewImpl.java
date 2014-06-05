@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.turbogwt.ext.gwtp.databind.person;
+package org.turbogwt.ext.gwtp.databind.test.person;
 
 import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.TextBox;
@@ -22,9 +22,9 @@ import com.google.gwt.user.datepicker.client.DateBox;
 
 import javax.annotation.Nullable;
 
-import org.turbogwt.ext.gwtp.databind.DatabindViewImpl;
-import org.turbogwt.mvp.databind.Strategy;
-import org.turbogwt.mvp.databind.validation.ValidationMessage;
+import org.turbogwt.ext.gwtp.databind.client.DatabindViewImpl;
+import org.turbogwt.mvp.databind.client.Strategy;
+import org.turbogwt.mvp.databind.client.validation.ValidationMessage;
 
 /**
  * Implementation of {@link PersonPresenter.PersonView}.

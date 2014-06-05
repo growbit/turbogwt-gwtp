@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.turbogwt.ext.gwtp.databind.person;
+package org.turbogwt.ext.gwtp.databind.test.person;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.junit.client.GWTTestCase;
@@ -192,7 +192,7 @@ public class PersonGwtTestCase extends GWTTestCase {
         final String email2 = "alice@alice.org";
 
         presenter.getPerson().setName(name2);
-        presenter.getPerson().setBirthday(new Date((long)birthdayTime2));
+        presenter.getPerson().setBirthday(new Date((long) birthdayTime2));
         presenter.getPerson().setPhoneNumber(phoneNumber2);
         presenter.getPerson().setEmail(email2);
 

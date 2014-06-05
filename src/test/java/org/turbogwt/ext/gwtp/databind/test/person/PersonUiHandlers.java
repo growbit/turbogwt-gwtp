@@ -14,24 +14,14 @@
  * limitations under the License.
  */
 
-package org.turbogwt.ext.gwtp.databind;
+package org.turbogwt.ext.gwtp.databind.test.person;
 
-import com.google.gwt.junit.tools.GWTTestSuite;
-
-import junit.framework.Test;
-
-import org.turbogwt.ext.gwtp.databind.person.PersonGwtTestCase;
+import org.turbogwt.ext.gwtp.databind.client.DatabindUiHandlers;
 
 /**
+ * UiHandlers of Person editing view.
+ *
  * @author Danilo Reinert
  */
-public class DatabindGwtTestSuite {
-
-    public static Test suite() {
-        GWTTestSuite suite = new GWTTestSuite("Databind GWT Test Suite");
-
-        suite.addTestSuite(PersonGwtTestCase.class);
-
-        return suite;
-    }
+public interface PersonUiHandlers extends DatabindUiHandlers {
 }

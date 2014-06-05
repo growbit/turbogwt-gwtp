@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.turbogwt.ext.gwtp.databind;
+package org.turbogwt.ext.gwtp.databind.client;
 
 import com.google.gwt.user.client.TakesValue;
 import com.google.gwt.user.client.ui.HasValue;
@@ -22,11 +22,11 @@ import com.gwtplatform.mvp.client.ViewWithUiHandlers;
 
 import javax.annotation.Nullable;
 
-import org.turbogwt.core.util.Registration;
-import org.turbogwt.mvp.databind.DatabindUiHandler;
-import org.turbogwt.mvp.databind.DatabindViewEngine;
-import org.turbogwt.mvp.databind.Strategy;
-import org.turbogwt.mvp.databind.validation.ValidationMessage;
+import org.turbogwt.core.util.shared.Registration;
+import org.turbogwt.mvp.databind.client.DatabindUiHandler;
+import org.turbogwt.mvp.databind.client.DatabindViewEngine;
+import org.turbogwt.mvp.databind.client.Strategy;
+import org.turbogwt.mvp.databind.client.validation.ValidationMessage;
 
 /**
  * Base class for a {@link DatabindView}.

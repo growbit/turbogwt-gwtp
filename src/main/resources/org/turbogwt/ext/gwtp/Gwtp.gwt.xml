@@ -2,6 +2,4 @@
 <module>
     <inherits name="com.google.gwt.user.User"/>
     <inherits name="org.turbogwt.ext.gwtp.databind.Databind"/>
-
-    <source path="" excludes="**/*Test.java,**/*TestSuite.java,**/*TestUtil.java,**/*Mock.java"/>
 </module>

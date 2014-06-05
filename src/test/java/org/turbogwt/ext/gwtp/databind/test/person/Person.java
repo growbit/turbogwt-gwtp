@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.turbogwt.ext.gwtp.databind.person;
+package org.turbogwt.ext.gwtp.databind.test.person;
 
 import java.util.Date;
 

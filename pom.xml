@@ -135,6 +135,7 @@
                 <configuration>
                     <extraJvmArgs>-Xss1024k -Xmx512M</extraJvmArgs>
                     <includes>**/*GwtTestSuite.java</includes>
+                    <includes>**/*GwtTestCase.java</includes>
                     <mode>htmlunit</mode>
                     <testTimeOut>180</testTimeOut>
                 </configuration>

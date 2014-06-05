@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.turbogwt.ext.gwtp.databind;
+package org.turbogwt.ext.gwtp.databind.client;
 
 import com.gwtplatform.mvp.client.HasUiHandlers;
-import com.gwtplatform.mvp.client.View;
+import com.gwtplatform.mvp.client.PopupView;
 
 /**
- * The interface for view classes that handles all the UI-related code for a
- * {@link com.gwtplatform.mvp.client.Presenter} supporting Databind.
+ * The interface for {@link com.gwtplatform.mvp.client.View} classes that is meant to be displayed as a
+ * popup supporting Databind.
  *
  * @param <H> your {@link DatabindUiHandlers} implementation. (usually the presenter)
  * @author Danilo Reinert
  */
-public interface DatabindView<H extends DatabindUiHandlers> extends View, HasUiHandlers<H>,
-        org.turbogwt.mvp.databind.DatabindView {
+public interface PopupDatabindView<H extends DatabindUiHandlers> extends PopupView, HasUiHandlers<H>,
+        org.turbogwt.mvp.databind.client.DatabindView {
 }

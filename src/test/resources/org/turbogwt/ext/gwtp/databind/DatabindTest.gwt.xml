@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module>
     <inherits name="com.google.gwt.user.User"/>
-    <inherits name="org.turbogwt.mvp.databind.Databind"/>
     <inherits name="com.gwtplatform.mvp.Mvp"/>
+    <inherits name="org.turbogwt.mvp.databind.Databind"/>
+    <inherits name="org.turbogwt.ext.gwtp.databind.Databind"/>
 
-    <source path=""/>
+    <source path="test"/>
 </module>

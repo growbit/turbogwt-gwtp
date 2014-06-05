@@ -14,17 +14,18 @@
  * limitations under the License.
  */
 
-package org.turbogwt.ext.gwtp.databind;
+package org.turbogwt.ext.gwtp.databind.client;
 
-import com.gwtplatform.mvp.client.UiHandlers;
-
-import org.turbogwt.mvp.databind.DatabindUiHandler;
+import com.gwtplatform.mvp.client.HasUiHandlers;
+import com.gwtplatform.mvp.client.View;
 
 /**
- * Use this interface on classes that implement the controls required by
- * a {@link DatabindView} to communicate back with its {@link com.gwtplatform.mvp.client.PresenterWidget}.
+ * The interface for view classes that handles all the UI-related code for a
+ * {@link com.gwtplatform.mvp.client.Presenter} supporting Databind.
  *
+ * @param <H> your {@link DatabindUiHandlers} implementation. (usually the presenter)
  * @author Danilo Reinert
  */
-public interface DatabindUiHandlers extends DatabindUiHandler, UiHandlers {
+public interface DatabindView<H extends DatabindUiHandlers> extends View, HasUiHandlers<H>,
+        org.turbogwt.mvp.databind.client.DatabindView {
 }
